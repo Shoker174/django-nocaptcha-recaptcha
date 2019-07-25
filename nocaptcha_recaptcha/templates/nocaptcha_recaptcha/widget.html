@@ -1,6 +1,6 @@
 <div id="id-{{ name }}" class="g-recaptcha" {% for attr in gtag_attrs.items %}{{ attr.0 }}="{{ attr.1 }}" {% endfor %}data-sitekey="{{ site_key }}"></div>
 
-<script>window.dispatchEvent(new Event('captcha_loaded'));</script>
+<script>window.dispatchEvent(new Event('captchaWidgetLoaded'));</script>
 
 <noscript>
     <div style="width: 302px; height: 352px;">

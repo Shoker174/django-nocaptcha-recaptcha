@@ -48,3 +48,4 @@ target/
 pep8.txt
 .eggs
 .ropeproject
+.idea/*
