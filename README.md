@@ -66,7 +66,7 @@ The original django-recaptcha project is located at the following location:
 
      ``captcha = NoReCaptchaField(gtag_attrs={'data-theme':'dark'}))``
 
-5. add following js to your ``main.js`` file
+5. Add following js to your ``main.js`` file
 
 	```javascript
     // dictionary must contain all capthcas ids with value 'false'
@@ -101,7 +101,7 @@ The original django-recaptcha project is located at the following location:
     }
 	```
 
-6. insert google script in your base template footer:
+6. Insert google script in your base template footer:
 	```html
    <script src="/static/js/main.js"></script>
    <script src="//www.google.com/recaptcha/api.js?onload=captchaReady&render=explicit&hl=ru" async defer></script>
